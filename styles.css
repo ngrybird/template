@@ -1,0 +1,40 @@
+body{
+	color: #252525;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+	margin : 0px auto;
+}
+header{
+	width : 100%;
+	height : 200px;
+	display:flex;
+	align-items : center;
+	
+}
+
+footer{
+	margin : 0px auto;
+	width : 100%;
+	height : 100px;	
+	display:flex;
+	align-items : center;
+	justify-content : center;
+}
+.headerMenus{
+	float:left;
+}
+.content{
+	display:flex;
+	flex-flow : row wrap;
+	align-items : center;
+	justify-content : space-around;
+	
+}
+.item{
+	min-height : 200px;
+	min-width : 150px;
+	background : blue;
+	margin : 10px 10px;
+}
